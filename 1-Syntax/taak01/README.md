@@ -15,6 +15,9 @@ In de komende taken ga je verschillende opdrachten leren die je aan PHP kunt gev
 - Om het begin van PHP-code aan te geven gebruik je `<?php`
 - Om het einde van PHP-code aan te geven gebruik je `?>`
 - Aan het einde van een regel code gebruik je altijd een `;`
+- Ronde haakjes `()` worden gebruikt om een (voor)waarde in te zetten.
+- Accolades `{}` worden gebruikt om het begin en het einde van een codeblok aan te geven.
+- Rechte haakjes `[]` worden gebruikt om een index aan te geven
 - Variabelen beginnen altijd met een `$` gevolgd door een letter of underscore `_`
 
 ```php
@@ -23,12 +26,23 @@ In de komende taken ga je verschillende opdrachten leren die je aan PHP kunt gev
 $voornaam = "Donald";
 $achternaam = "Duck";
 
+$kleuren[0] = "rood";
+$kleuren[1] = "wit";
+$kleuren[2] = "blauw";
+
+/* Als de variabele $achternaam gelijk is aan Duck dan
+ * moet dit code blok worden uitgevoerd
+ */
+if($achternaam == "Duck")
+{
+    echo "Dit karakter woont in Duckstad";
+}
 ?>
 ```
 
 Bij veel opdrachten die je aan PHP geeft moet je een bepaalde waarde meegeven. Als je op internet bijvoorbeeld in W3Schools zoekt hoe je een opdracht moet uitvoeren. Staat daar altijd de syntax bij, lees deze goed!
 
-> Kijk maar eens naar de syntax van een echo statement op: [W3Schools - Echo](https://www.w3schools.com/php/func_string_echo.asp)
+> Kijk maar eens naar de syntax van een echo statement op: [W3 schools - Echo](https://www.w3schools.com/php/func_string_echo.asp)
 
 ## Leerdoelen
 

@@ -41,20 +41,20 @@ $x = null;
 
 ## Leerdoelen
 
-> 1.  [ ] Ik weet wat de verschillende datatype zijn
-> 2.  [ ] Ik maak een boolean variabele aan in PHP
-> 3.  [ ] Ik maak een variabele leeg in PHP
-> 4.  [ ] Ik volg de juiste regels voor het maken van een variabele
-> 5.  [ ] Ik volg de juiste regels voor het maken van een boolean
-> 6.  [ ] Ik kan de waarde van de variabele op het scherm tonen
+> 1. [ ] Ik weet wat de verschillende datatype zijn
+> 2. [ ] Ik maak een boolean variabele aan in PHP
+> 3. [ ] Ik maak een variabele leeg in PHP
+> 4. [ ] Ik volg de juiste regels voor het maken van een variabele
+> 5. [ ] Ik volg de juiste regels voor het maken van een boolean
+> 6. [ ] Ik kan de waarde van de variabele op het scherm tonen
 
 ## Opdracht
 
-> 1.  Schrijf je code in `index.php`
-> 2.  Maak een variabele _test_ aan met de waarde true
-> 3.  Toon de waarde van de variabele _test_ op het scherm met `echo`
-> 4.  Maak de variabele _test_ leeg.
-> 5.  Toon de waarde van de variabele _test_ op het scherm met `echo`
+> 1. Schrijf je code in `index.php`
+> 2. Maak een variabele _test_ aan met de waarde true
+> 3. Toon de waarde van de variabele _test_ op het scherm met `echo`
+> 4. Maak de variabele _test_ leeg.
+> 5. Toon de waarde van de variabele _test_ op het scherm met `echo`
 
 ## Eindresultaat
 
