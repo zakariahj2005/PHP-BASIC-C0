@@ -1,4 +1,4 @@
-# PHP-BASIC
+# PHP-BASIC - Variabelen en Datatype
 
 ## Taak 11 - Variabelen - type en waarde op het scherm tonen met var_dump()
 

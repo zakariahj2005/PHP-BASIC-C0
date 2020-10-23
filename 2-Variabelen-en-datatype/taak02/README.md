@@ -1,4 +1,4 @@
-# PHP-BASIC
+# PHP-BASIC - Variabelen en Datatype
 
 ## Taak 02 - Datatype String
 

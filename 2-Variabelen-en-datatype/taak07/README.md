@@ -1,4 +1,4 @@
-# PHP-BASIC
+# PHP-BASIC - Variabelen en Datatype
 
 ## Taak 07 - Variabelen - data en tekst combineren
 
