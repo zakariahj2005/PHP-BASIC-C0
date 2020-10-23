@@ -5,9 +5,9 @@
 ## Uitleg
 
 In een variabele kun je verschillende soorten waarden opslaan, zoals een stukje tekst, bijvoorbeeld je naam, een heel getal, zoals je leeftijd, een decimaal getal zoals de kosten van je telefoonabonnement. Naast tekst en cijfers heb je ook nog datatypes die handig zijn om mee te programmeren zoals true/false, null, array en objects.
->
+
 >_Het soort waarde dat je opslaat (tekst, getal, decimaal, etc.) noemen we een datatype._
->
+
 In PHP heb je verschillende soorten datatypes namelijk:
 
 * string - _een rij karakters -> Hallo wereld._

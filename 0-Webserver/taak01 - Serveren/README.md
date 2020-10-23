@@ -8,7 +8,7 @@ Elke website die jij bezoekt op het World Wide Web wordt getoond omdat het op ee
 
 Tot nu toe ben je gewend om de HTML-bestanden gewoon vanaf je eigen computer te starten door er dubbel op te klikken. De browser leest de bestanden en je ziet een mooie (of lelijke) pagina.
 
-Je bent als gebruiker van webapplicaties gewend om bijvoorbeeld in te loggen, een bericht achter te laten of een email te sturen. Deze applicaties zijn _dynamisch_. Ze hebben een __input__ en een __output__. 
+Je bent als gebruiker van webapplicaties gewend om bijvoorbeeld in te loggen, een bericht achter te laten of een email te sturen. Deze applicaties zijn _dynamisch_. Ze hebben een __input__ en een __output__.
 
 Om een dynamische webapplicatie te gebruiken heb je echter een webserver nodig die de pagina's __serveert__. Net als een ober een drankje serveert.
 
