@@ -1,6 +1,6 @@
-# PHP-BASIC-TAAK-01
+# PHP-BASIC - Functions
 
-## FUNCTIONS
+## Taak 01 - Functions
 
 ## Uitleg
 
@@ -40,17 +40,18 @@ Nu gaat de functie doen waarvoor ie in het leven is geroepen. En we kunnen de fu
 
 ## Leerdoelen
 
-> 1. [ ] Ik weet wat functies zijn
-> 2. [ ] Ik volg de juiste regels bij het schrijven van functies
-> 3. [ ] Ik kan een functie aanroepen
+1. [ ] Ik weet wat functies zijn
+2. [ ] Ik volg de juiste regels bij het schrijven van functies
+3. [ ] Ik kan een functie aanroepen
 
 ## Opdracht
 
-> 1. Maak een functie `zetTweeWoordenAanElkaar()`
-> 2. Zorg ervoor dat je twee variabelen maakt: `$woordje` en `$zinnetje` binnen in de functie
-> 3. Geef waarde aan beide variabelen: `'Hallo'` en `'mooie blauwe planeet!'`
-> 4. Maak nog een variable `$heleZin` die bestaat uit de twee eerder gemaakte variabelen en echo de variabele `$heleZin` op het scherm.
-> 5. Roep de functie `zetTweeWoordenAanElkaar()` aan zodat je de volgende zin op het scherm krijgt: "Hallo mooie blauwe planeet!"
+1. Schrijf je code in `index.php`
+2. Maak een functie `zetTweeWoordenAanElkaar()`
+3. Zorg ervoor dat je twee variabelen maakt: `$woordje` en `$zinnetje` binnen in de functie
+4. Geef waarde aan beide variabelen: `'Hallo'` en `'mooie blauwe planeet!'`
+5. Maak nog een variable `$heleZin` die bestaat uit de twee eerder gemaakte variabelen en echo de variabele `$heleZin` op het scherm.
+6. Roep de functie `zetTweeWoordenAanElkaar()` aan zodat je de volgende zin op het scherm krijgt: "Hallo mooie blauwe planeet!"
 
 ## Eindresultaat
 
@@ -61,7 +62,6 @@ Nu gaat de functie doen waarvoor ie in het leven is geroepen. En we kunnen de fu
 > [W3 Schools - syntax](https://www.w3schools.com/PHP/php_syntax.asp)  
 > [W3 Schools - functies](https://www.w3schools.com/php/php_functions.asp)  
 > [Jaap vd Veen - functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)
-
 
 <!--- ------------ DIT COMMENTAAR LATEN STAAN AUB ------------
 ------------------ ------------------------------ ------------

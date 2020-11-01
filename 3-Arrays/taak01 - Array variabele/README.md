@@ -41,9 +41,9 @@ Nu moeten we nog leren hoe we de waardes op het scherm kunnen tonen
 * Dus als je de eerste waarde uit de array wilt opvragen kun je dit zo doen:
 
 ```php
-    $myMovies[0];
+    echo $myMovies[0]; //als het datatype achter deze index 0 een string, of een getal is dan wordt het resultaat op het scherm getoond.
 ```
->
+
 ## Leerdoelen
 
 1. [ ] Ik weet wat een indexed array is

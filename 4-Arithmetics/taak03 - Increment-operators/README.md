@@ -1,6 +1,6 @@
 # PHP-BASIC - Arithmetics
 
-## Taak 01 - Increment-operators
+## Taak 03 - Increment-operators
 
 ## Uitleg
 
@@ -51,7 +51,6 @@ Dit is het verschil:
 
 _Voor nu hoef je alleen te onthouden wat het verschil is als je de ++ of -- voor of na de variabele zet, later met meer uitleg zal het duidelijker worden!_
 
->
 ## Leerdoelen
 
 1. [ ] Ik weet wat increment-operators zijn

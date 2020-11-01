@@ -1,4 +1,4 @@
-# PHP-BASIC - Arithmetics
+# PHP-BASIC - Conditional Statements
 
 ## Taak 01 - Comparison Operators
 
