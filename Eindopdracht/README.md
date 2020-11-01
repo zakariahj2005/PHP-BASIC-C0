@@ -1,16 +1,23 @@
 # PHP-BASIC - Module Eindopdracht
 
-## Uitleg
+## Bitcoin Calculator
 
+Een developer wilde een Bitcoin Calculator maken om zo het aantal door hem gekochte bitcoins bij te houden voor een klant. Echter is de developer overgestapt naar een ander bedrijf. Aan jou de taak om de Bitcoin Calculator af te maken. 
 
+De bitcoin calculator maakt gebruikt van de CoinDesk API. Hiermee halen we de huidige prijs van Bitcoin in euro's op. Daarnaast is er een array $transactions met eerder gekochte stukjes bitcoins.
 
+### Opdracht
 
-
+1. Voeg bitcoinData toe aan het bestand view.php
+2. calculateBitcoinAmount() functie is niet afgemaakt. Maak deze af.
+3. Maak gebruik van getBitcoinPrice() om het aantal gekochte bitcoins te berekenen en voeg de drie benodigde waardes toe aan de $transactions array
 
 ## Eindresultaat
+
 Het eindresultaat is een volledig werkende applicatie die alle functionaliteiten bevat. Ook moet je voor de beoordeling je geschereven pseudocode of plan inleveren.
 
 ## Bronnen
+
 >[W3 Schools - syntax](https://www.w3schools.com/PHP/php_syntax.asp)  
 >[Sitemasters - variabelen/echo](http://www.sitemasters.be/tutorials/1/1/3/PHP/Variabelen_in_PHP#wat)  
 >[W3 Schools - variabelen](https://www.w3schools.com/php/php_variables.asp)  

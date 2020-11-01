@@ -1,9 +1,9 @@
 
 <?php
 /* Er zijn drie opdrachten te doen voor jou
- * 1. Voeg view.php toe  helemaal onderaan aan dit bestand:
- * 2. calculateBitcoinAmount() functie afmaken
- * 3. Berekening aantal bitcoint toevoegen aan $transactions array
+ * 1. Voeg bitcoinData toe aan het bestand view.php
+ * 2. calculateBitcoinAmount() functie is niet afgemaakt. Maak deze af.
+ * 3. Maak gebruik van getBitcoinPrice() om het aantal gekochte bitcoins te berekenen en voeg de drie benodigde waardes toe aan de $transactions array
 
 
 /* 
