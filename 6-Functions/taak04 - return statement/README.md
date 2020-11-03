@@ -6,7 +6,7 @@
 
 Functies zijn heel erg handig om specifieke blokjes code uit te voeren. Een `var_dump()` of `berekenTotaal()` bevatten stukjes code die we laten kunnen aanroepen als we dat nodig hebben.
 
-Soms is de laatste regel van zo'n functie een `echo`: het resultaat wordt op het scherm getoond. Mooi. Maar stel dat je nou net dat laatste niet wilt. Je wilt het resultaat niet op het scherm tonen maar elders in je code gebruiken. Dan is zo'n echo niet handig. Eigenlijk willen we dat de functie het eindresultaat berekent/bepaald/uitvoerd en aan ons teruggeeft zodat wij er iets anders mee kunnen doen.
+Soms is de laatste regel van zo'n functie een `echo`: het resultaat wordt op het scherm getoond. Mooi. Maar stel dat je nou net dat laatste niet wilt. Je wilt het resultaat niet op het scherm tonen maar elders in je code gebruiken. Dan is zo'n echo niet handig. Eigenlijk willen we dat de functie het eindresultaat berekent/bepaald/uitvoerd en aan ons __teruggeeft__ zodat wij er iets anders mee kunnen doen.
 
 De functie strtoupper() is eigenlijk zo'n functie, die maakt van alle letters in een string een hoofdletter. Maar deze functie toont het resultaat daarvan niet op het scherm. Daarvoor moet je nog een echo gebruiken. Dus de functie strtoupper() geeft een string terug.
 
@@ -34,11 +34,11 @@ De bovenstaande functie maakt een berekening en geeft het resultaat aan ons teru
 Zodra de functie `zetAllesGroot()`  aangeroepen wordt en dus uitgevoerd wordt dan wordt eerst de functie `maakBerekening()` uitgevoerd om daarna het gehele resultaat `<h1>878</h1>` in de browser te tonen.
 
 > Als een return statement wordt uitgevoerd in de functie dan stopt de functie met de code uit te voeren. Er wordt dan een resultaat teruggegeven ongeacht of er nog code onder staat.
-> 
+
 ## Leerdoelen
 
 1. [ ] Ik codeer een functie met een return statement
-2. [ ] Ik roep een functie met een return statement aan om het resultaat te gebruiken.
+2. [ ] Ik roep een functie met een return statement aan die het resultaat teruggeeft
 
 ## Opdracht
 

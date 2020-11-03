@@ -4,7 +4,7 @@
 
 ## Uitleg
 
-Zoals je bij de vorige opdrachten hebt gezien kun je meerdere datatypes in een array stoppen. Bijvoorbeeld string, of integer. Maar je kunt ook boolean (true of false) en decimale getallen kwijt. 
+Zoals je bij de vorige opdrachten hebt gezien kun je meerdere datatypes in een array stoppen. Bijvoorbeeld string, of integer. Maar je kunt ook boolean (true of false) en decimale getallen kwijt.
 
 Je kunt allemaal hetzelfde type in een array stoppen zoals bij de vorige opdrachten. De `$movies`-array bevatte alleen maar string-typen.
 
@@ -14,7 +14,7 @@ Je kunt natuurlijk ook verschillende typen toevoegen:
     $lijstDerDingen = [true,"true", 1, 0 "false", false, 5.5];
 ```
 
-Echter kunnen we een array nog complexer maken. Een array is namelijk oof een soort datatype en die kun je ook in een array plaatsen:
+Echter kunnen we een array nog complexer maken. Een array is namelijk ook een soort datatype en die kun je ook in een array plaatsen:
 
 ```php
     $complexeLijst = [ [1,2,3], ["een", "twee", "drie"], true, false  ];

@@ -1,5 +1,5 @@
 <?php
-//voeg hier een bestand toe.
+
 ?>
 <?php include 'header.php'; ?>
 <div class="container mt-4">
@@ -16,9 +16,11 @@
             <a href="?euro=100" class="btn btn-info p-3 m-1">&euro;100</a>
             <a href="?euro=200" class="btn btn-info p-3 m-1">&euro;200</a>
             <a href="?euro=300" class="btn btn-info p-3 m-1">&euro;300</a>
-            <a href="?euro=500" class="btn btn-info p-3 m-1">&euro;500</a>
-            <a href="?euro=1000" class="btn btn-info p-3 m-1">&euro;1000</a>
-            <a href="?euro=2000" class="btn btn-info p-3 m-1">&euro;2000</a>
+            <?php if (isset($buttons) && is_array($buttons)) : ?>
+                <?php foreach ($buttons as $button) : ?>
+                    <a href="?euro=<?php echo $button ?>" class="btn btn-info p-3 m-1">&euro;<?php echo $button ?></a>
+                <?php endforeach; ?>
+            <?php endif; ?>
         </div>
         <div class="col-6">
             <table class="table">
@@ -32,18 +34,22 @@
                 </thead>
                 <tbody>
                     <!-- Deze tabel wordt dynamisch geladen met de $transactions array -->
-                    <?php if (isset($transactions) && is_array($transactions)) : ?>
-                        <?php $total_bitcoin_amount = 0; ?>
-                        <?php foreach ($transactions as $key => $transaction) : ?>
-                            <?php $total_bitcoin_amount += $transaction[2]; ?>
+                    <?php
+                    if (isset($transactions) && is_array($transactions)) :
+                        $total_bitcoin_amount = 0;
+                        foreach ($transactions as $key => $transaction) :
+                            $total_bitcoin_amount += $transaction[2];
+                    ?>
                             <tr>
                                 <td><?php echo $key  ?></td>
                                 <td><?php echo $transaction[0]; ?></td>
                                 <td><?php echo $transaction[1]; ?></td>
                                 <td><?php echo number_format($transaction[2], 4) ?></td>
                             </tr>
-                        <?php endforeach; ?>
-                    <?php endif; ?>
+                    <?php
+                        endforeach;
+                    endif;
+                    ?>
                 </tbody>
                 <tr>
                     <td colspan="4">Totaal gekochte bitcoins: <?php echo $total_bitcoin_amount ?></td>

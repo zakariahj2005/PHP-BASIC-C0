@@ -1,14 +1,24 @@
 
 <?php
 /* Er zijn drie opdrachten te doen voor jou
- * 1. Voeg bitcoinData toe aan het bestand view.php
- * 2. calculateBitcoinAmount() functie is niet afgemaakt. Maak deze af.
- * 3. Maak gebruik van getBitcoinPrice() om het aantal gekochte bitcoins te berekenen en voeg de drie benodigde waardes toe aan de $transactions array
+ * 1. Voeg bitcoinData.php toe aan het bestand view.php
+ * 2. Maak een array met verschillende waardes. 
+ *      Deze array noem je $buttons. Je maakt dan extra buttons aan voor de applicatie
+ *      Deze waardes mag je zelf kiezen, wees zo uniek mogelijk.
+ *      Waarbij je tenminste 2 integers en 1 decimaal getal gebruikt. 
+ * 3. calculateBitcoinAmount() functie is niet afgemaakt. Maak deze af. Zie regel 61 van dit bestand
+ * 4. Maak gebruik van getBitcoinPrice() om het aantal gekochte bitcoins te berekenen en 
+ * 5. Voeg de drie benodigde waardes toe aan de $transactions array met array_push() zodat de nieuwe gekochte stukje bitcoin wordt toegevoegd 
+ */
 
+
+// Zet hier de $buttons array neeer 
+$buttons = [234543, 546456, 2.343];
 
 /* 
  * Deze array bevat alle eerder gemaakte transacties. 
  * De structuur van de array is als volgt: [ prijs 1 bitcoin, koopbedrag, aantal bitcoin gekocht]
+ * Deze array laat je staan. 
  */
 $transactions = [
 
@@ -36,15 +46,15 @@ if (isset($_GET['euro'])) {
 
     ////SCHRIJF HIER JE CODE.
     //schrijf hieronder de code om de gekochte bitcoin aan de array $transactions toe te voegen.
-
+    array_push($transactions, [getBitcoinPrice(), $euro, calculateBitcoinAmount()]);
 }
 
 
 
 /* Codeer hier de functie calculateBitcoinAmount() af. De code die er staat kun je laten staan. 
  * Maak bij het maken van de oplossing gebruik van de gegeven $euro variabele
- * Bereken de hoeveelheid bitcoin die wordt gekocht bij het klikken op de knop.
- * De huidige bitcoin prijs wordt opgehaald met de functie getBitcoinPrice()
+ * Bereken de hoeveelheid bitcoin die wordt gekocht bij het klikken op de knop. 
+ * De huidige bitcoin prijs wordt opgehaald met de functie getBitcoinPrice(), deze functie geeft de prijs in euro's van 1 bitcoin.
  * De functie geeft de berekening terug. 
  */
 
@@ -56,8 +66,7 @@ function calculateBitcoinAmount()
 
 
     //SCHRIJF HIER JE CODE.
-    // Zorg dat data aan de transactions array toegevoegd wordt.
-
+    return  $euro / getBitcoinPrice();
 }
 
 

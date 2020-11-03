@@ -2,7 +2,7 @@
 
 ## Bitcoin Calculator
 
-Een developer wilde een Bitcoin Calculator maken om zo het aantal door hem gekochte bitcoins bij te houden voor een klant. Echter is de developer overgestapt naar een ander bedrijf. Aan jou de taak om de Bitcoin Calculator af te maken. 
+Een developer wilde een Bitcoin Calculator maken om zo het aantal door hem gekochte bitcoins bij te houden voor een klant. Echter is de developer overgestapt naar een ander bedrijf. Aan jou de taak om de Bitcoin Calculator af te maken.
 
 De bitcoin calculator maakt gebruikt van de CoinDesk API. Hiermee halen we de huidige prijs van Bitcoin in euro's op. Daarnaast is er een array $transactions met eerder gekochte stukjes bitcoins.
 
