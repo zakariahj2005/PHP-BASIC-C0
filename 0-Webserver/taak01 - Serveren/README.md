@@ -1,4 +1,4 @@
-# PHP-BASIC - Webservers
+# PHP-BASIC - Webserver
 
 ## Taak 01 - Serveren van pagina's
 
