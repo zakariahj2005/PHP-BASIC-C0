@@ -1,13 +1,28 @@
 <?php
 
+/*******************************************************************************************************************/
+/******************************************* OPDRACHT 1 doe je hieronder *******************************************/
+
+/* 
+ * Opdracht 1: voeg hier het bestand allcoins.php in. 
+ * Verder hoef je geen code te schrijven op deze pagina.
+ */
+
+
+
+/*******************************************************************************************************************/
+/**************************** De code hieronder heb je nodig en hoef je niet aan te passen *************************/
 ?>
+
 <?php include 'header.php'; ?>
 <div class="container mt-4">
-    <div class="row">
-        <div class="col-12">
+    <div class="row mb-4">
+        <div class="col d-flex justify-content-center">
             <h4>Koop Crypto munten</h4>
         </div>
-        <div class="col-6">
+    </div>
+    <div class="row mt-4">
+        <div class="col-3">
             <div class="form-group">
                 <label for="">Huidige Bitcoin Prijs</label>
                 <span>&euro; </span><input type="text" name="bitcoin_current_price" value="<?php echo getBitcoinPrice() ?>" class="form-control">
@@ -22,8 +37,10 @@
                 <?php endforeach; ?>
             <?php endif; ?>
         </div>
-        <div class="col-6">
+        <div class="col">
             <table class="table">
+                <h5>Bitcoin Transacties</h5>
+                <caption>Deze tabel toond de eerder gemaakte transacties</caption>
                 <thead>
                     <tr>
                         <th>#</th>
@@ -34,34 +51,37 @@
                 </thead>
                 <tbody>
                     <!-- Deze tabel wordt dynamisch geladen met de $transactions array -->
-                    <?php
-                    if (isset($transactions) && is_array($transactions)) :
-                        $total_bitcoin_amount = 0;
-                        foreach ($transactions as $key => $transaction) :
-                            $total_bitcoin_amount += $transaction[2];
-                    ?>
+                    <?php if (isset($transactions) && is_array($transactions)) : ?>
+                        <?php $total_bitcoin_amount = 0; ?>
+                        <?php foreach ($transactions as $key => $transaction) : ?>
+                            <?php $total_bitcoin_amount += $transaction[2]; ?>
                             <tr>
                                 <td><?php echo $key  ?></td>
                                 <td><?php echo $transaction[0]; ?></td>
                                 <td><?php echo $transaction[1]; ?></td>
                                 <td><?php echo number_format($transaction[2], 4) ?></td>
                             </tr>
-                    <?php
-                        endforeach;
-                    endif;
-                    ?>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </tbody>
                 <tr>
                     <td colspan="4">Totaal gekochte bitcoins: <?php echo $total_bitcoin_amount ?></td>
                 </tr>
             </table>
         </div>
+        <div class="col">
+            <div class="card m-b-30">
+                <div class="card-header bg-white">
+                    <h5 class="card-title text-black">Bitcoin grafiek</h5>
+                    <h6 class="card-subtitle">Hieronder staat de door jouw gemaakte data</h6>
+                </div>
+                <div class="card-body">
+                    <canvas id="xp-chartjs-basic-line" class="xp-chartjs-chart"></canvas>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<footer class="footer mt-auto py-3 m-5">
-    <div class="row">
-        <small id="text" class="form-text text-muted"><i><?php echo getDisclaimer() ?></i> </small>
-    </div>
-</footer>
+
 
 <?php include 'footer.php'; ?>

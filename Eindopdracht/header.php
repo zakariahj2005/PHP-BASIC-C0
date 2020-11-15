@@ -1,3 +1,8 @@
+<?php
+
+/*******************************************************************************************************************/
+/**************************** De code hieronder heb je nodig en hoef je niet aan te passen *************************/
+?>
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 
@@ -9,4 +14,3 @@
 </head>
 
 <body class=" d-flex flex-column h-100">
-    
