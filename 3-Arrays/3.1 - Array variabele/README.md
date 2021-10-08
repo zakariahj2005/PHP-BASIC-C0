@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatypes
 
-## Taak 01 - Array variabele
+## 3.1 - Array variabele
 
 ## Uitleg
 

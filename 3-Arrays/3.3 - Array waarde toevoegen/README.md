@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatypes
 
-## Taak 03 - Array waarde toevoegen
+## 3.3 - Array waarde toevoegen
 
 ## Uitleg
 

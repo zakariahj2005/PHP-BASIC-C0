@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatypes
 
-## Taak 03 - Array sorteren
+## 3.5 - Array sorteren
 
 ## Uitleg
 

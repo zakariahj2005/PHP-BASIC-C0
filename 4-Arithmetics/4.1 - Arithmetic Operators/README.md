@@ -1,6 +1,6 @@
 # PHP-BASIC - Arithmetics
 
-## Taak 01 - Arithmetic Operators
+## 4.1 - Arithmetic Operators
 
 ## Uitleg
 

@@ -1,6 +1,6 @@
 # PHP-BASIC - Conditional Statements
 
-## Taak 01 - Comparison Operators
+## 5.1 - Comparison Operators
 
 ## Uitleg
 

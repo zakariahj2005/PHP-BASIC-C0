@@ -1,6 +1,6 @@
 # PHP-BASIC - Conditional Statements
 
-## Taak 03 - Conditional statement - if, else
+## 5.3 - Conditional statement - if, else
 
 ## Uitleg
 

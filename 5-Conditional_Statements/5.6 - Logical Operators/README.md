@@ -1,6 +1,6 @@
 # PHP-BASIC - Conditional Statements
 
-## Taak 06 - Logical Operators
+## 5.6 - Logical Operators
 
 ## Uitleg
 

@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatypes
 
-## Taak 02 - Array waarde wijzigen
+## 3.2 - Array waarde wijzigen
 
 ## Uitleg
 

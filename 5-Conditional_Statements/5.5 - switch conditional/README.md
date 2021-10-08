@@ -1,6 +1,6 @@
 # PHP-BASIC - Conditional Statements
 
-## Taak 05 - Conditional statement - Switch
+## 5.5 - Conditional statement - Switch
 
 ## Uitleg
 

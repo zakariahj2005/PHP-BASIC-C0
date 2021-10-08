@@ -1,6 +1,6 @@
 # PHP-BASIC - Syntax
 
-## Taak 01 - Juiste regels
+## 1.1 - Juiste regels
 
 ## Uitleg
 

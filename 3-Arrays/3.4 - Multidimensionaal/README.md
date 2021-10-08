@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatypes
 
-## Taak 04 - Multidimensionaal
+## 3.4 - Multidimensionaal
 
 ## Uitleg
 
