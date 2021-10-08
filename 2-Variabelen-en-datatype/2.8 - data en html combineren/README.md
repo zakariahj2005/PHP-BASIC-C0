@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatype
 
-## Taak 08 - Variabelen - data en html combineren
+## 2.8 - Variabelen - data en html combineren
 
 ## Uitleg
 

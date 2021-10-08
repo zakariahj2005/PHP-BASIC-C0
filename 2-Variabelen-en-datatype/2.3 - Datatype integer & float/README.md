@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatype
 
-## Taak 03 - Datatype integer & float
+## 2.3 - Datatype integer & float
 
 ## Uitleg
 

@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatype
 
-## Taak 07 - Variabelen - data en tekst combineren
+## 2.7 - Variabelen - data en tekst combineren
 
 ## Uitleg
 

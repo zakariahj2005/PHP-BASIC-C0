@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatype
 
-## Taak 01 - Variabelen
+## 2.1 - Variabelen
 
 ## Uitleg
 

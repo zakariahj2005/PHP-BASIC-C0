@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatype
 
-## Taak 04 - Datatype boolean & null
+## 2.4 - Datatype boolean & null
 
 ## Uitleg
 

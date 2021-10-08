@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatype
 
-## Taak 05 - Datatypes - tonen op het scherm met gettype()
+## 2.5 - Datatypes - tonen op het scherm met gettype()
 
 ## Uitleg
 

@@ -1,6 +1,6 @@
 # PHP-BASIC - Variabelen en Datatype
 
-## Taak 09 - String operators - concatenation
+## 2.9 - String operators - concatenation
 
 ## Uitleg
 
