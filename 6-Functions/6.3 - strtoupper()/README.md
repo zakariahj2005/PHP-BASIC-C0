@@ -1,6 +1,6 @@
 # PHP-BASIC - Functions
 
-## Taak 03 - Multiple functions
+## 6.3 - Multiple functions
 
 ## Uitleg
 

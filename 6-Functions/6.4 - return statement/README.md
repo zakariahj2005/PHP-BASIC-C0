@@ -1,6 +1,6 @@
 # PHP-BASIC - Functions
 
-## Taak 04 - Return Statement
+## 6.4 - Return Statement
 
 ## Uitleg
 

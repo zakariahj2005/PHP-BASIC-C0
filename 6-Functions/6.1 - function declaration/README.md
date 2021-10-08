@@ -1,6 +1,6 @@
 # PHP-BASIC - Functions
 
-## Taak 01 - Functions
+## 6.1 - Functions
 
 ## Uitleg
 
