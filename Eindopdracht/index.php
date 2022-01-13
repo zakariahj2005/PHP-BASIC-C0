@@ -8,6 +8,7 @@
  * Verder hoef je geen code te schrijven op deze pagina.
  */
 
+include 'bitcoin.php';
 
 
 /*******************************************************************************************************************/
