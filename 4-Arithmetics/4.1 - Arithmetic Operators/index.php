@@ -1,5 +1,11 @@
 <?php
-$getal_1 = 1;
-$getal_2 = 2;
-echo $getal_1+$getal_2;
+
+$getal1 = 3:
+$getal2= 10;
+
+echo $getal1 + $getal2 . "<br>"; 
+echo $getal1 - $getal2 . "<br>"; 
+echo $getal1 * $getal2 . "<br>"; 
+echo $getal1 / $getal2 . "<br>"; 
+
 ?>
