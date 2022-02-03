@@ -8,7 +8,8 @@
 </head>
 <body>
 <?php
-include 'menu.php'
+require 'includes/menu.php';
+require 'include/database.php';
 ?>
 
 </body>
