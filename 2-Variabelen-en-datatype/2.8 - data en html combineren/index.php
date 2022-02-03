@@ -1,6 +1,7 @@
 <?php
-    echo "<li>zakaria</li";
-    echo '<br>';
-    echo"<li>rida</li>";
-    echo "<li>mohammed</li>";
+$voornaam_a = "Zakaria";
+$voornaam_b = "Nadir";
+$voornaam_c = "Nassin";
+
+echo "<ul> <li>$voornaam_a</li> <li>$voornaam_b</li> <li>$voornaam_c</li>";
 ?>
