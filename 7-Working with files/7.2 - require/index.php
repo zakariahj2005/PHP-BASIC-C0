@@ -9,7 +9,7 @@
 <body>
 <?php
 require 'includes/menu.php';
-require 'include/database.php';
+require 'includes/database.php';
 ?>
 
 </body>
